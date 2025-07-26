@@ -1,18 +1,18 @@
-// import {
-//   faHouse,
-//   faTruckFast,
-//   faUser,
-//   faUsersRectangle,
-// } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHouse,
+  faTruckFast,
+  faUser,
+  faUsersRectangle,
+} from "@fortawesome/free-solid-svg-icons";
 
-// import { ContactIcon } from "../Contacted/ContactIcon";
+import { ContactIcon } from "../Contacted/ContactIcon";
 
-// import Image from "next/image";
-// import { faLine } from "@fortawesome/free-brands-svg-icons";
+import Image from "next/image";
+import { faLine } from "@fortawesome/free-brands-svg-icons";
 
 const Footerbar = () => {
   return (
-    <footer className="bg-gradient-to-b bg-black  w-full p-8 h-[100%]  text-white  ">
+    <footer className="bg-gradient-to-b bg-red-900  w-full p-8 h-[100%]  text-white  ">
       <div>
         <div>
           <h2 className="text-3xl font-bold text-amber-300"> โรงแรม</h2>
@@ -36,7 +36,7 @@ const Footerbar = () => {
           <h2 className="mb-3 mx-5">แผนผังเว็บไซต์</h2>
 
           <div className="flex flex-col gap-y-3 mx-8">
-            {/* <span>
+            <span>
               <ContactIcon
                 sizeicon="lg"
                 coloricon="white"
@@ -75,7 +75,7 @@ const Footerbar = () => {
                 icontype={faUsersRectangle}
                 classtype=""
               />
-            </span> */}
+            </span>
             <div className="hidden md:block">
               <h2 className="text-sm font-bold md:text-xl text-amber-300">
                 {" "}

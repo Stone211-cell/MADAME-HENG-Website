@@ -7,7 +7,7 @@ import Image from "next/image";
 const Mapcontactdetail = () => {
   return (
     <div>
-      <div className="relative bg-gradient-to-b from-blue-200 to-blue-800">
+      <div className="relative bg-gradient-to-b from-red-600 to-red-900">
         <Image
           src="/images/banner/S__8683544.webp"
           alt="ซ่อมประปา"
@@ -15,7 +15,7 @@ const Mapcontactdetail = () => {
           fill
         />
 
-        <div className="relative z-10 bg-blue-900/50 p-8 h-[100%] min-h-[500px] rounded-xl text-white backdrop-blur-sm  text-center  flex flex-col justify-center">
+        <div className="relative z-10 bg-red-900/50 p-8 h-[100%] min-h-[500px] rounded-xl text-white backdrop-blur-sm  text-center  flex flex-col justify-center">
           <div className="flex justify-center ">
             <h2 className="text-2xl font-bold  bg-white text-black w-50 rounded-md transition-transform duration-200 ease-in-out hover:scale-110  ">
               <Link href="#map">ติดต่อเรา</Link>

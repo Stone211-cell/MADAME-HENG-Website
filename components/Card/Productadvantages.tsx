@@ -4,7 +4,7 @@ const Productadvantages = () => {
   return (
     <div className="px-4 py-8">
       <div className="text-center mb-6 text-black">
-        <h1 className="text-xl p-2">ให้เราดูแลผิวคุณ</h1>
+        <h1 className="text-4xl p-2">ให้เราดูแลผิวคุณ</h1>
         <p>สินค้าของเรามีคุณภาพ...</p>
       </div>
 
@@ -12,8 +12,8 @@ const Productadvantages = () => {
 
         <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
           <Image
-            src="/images/Advantages/cosmetic-cat-1.webp"
-            alt="Face"
+            src="/images/Advantages/pexels-face.webp"
+            alt="สบู่มาดามเฮง"
             className="w-full h-full  transform transition-transform duration-3000 hover:scale-110"
             width={1000}
             height={1000}
@@ -28,15 +28,15 @@ const Productadvantages = () => {
 
         <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
           <Image
-            src="/images/Advantages/cosmetic-cat-1.webp"
-            alt="Face"
+            src="/images/Advantages/pexels-hand.webp"
+            alt="สบู่มาดามเฮง"
             className="w-full h-full  transform transition-transform duration-3000 hover:scale-110"
             width={1000}
             height={1000}
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 ">
             <p className="bg-white text-md bg-opacity-80  transform transition-transform duration-2500 rounded-full px-7 py-2 shadow text-black font-medium hover:bg-red-600 hover:text-white">
-              Face
+              Hand
             </p>
           </div>
         </div>
@@ -44,15 +44,15 @@ const Productadvantages = () => {
         
         <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
           <Image
-            src="/images/Advantages/cosmetic-cat-1.webp"
-            alt="Face"
+            src="/images/Advantages/pexels-body.webp"
+            alt="สบู่มาดามเฮง"
             className="w-full h-full  transform transition-transform duration-3000 hover:scale-110"
             width={1000}
             height={1000}
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 ">
             <p className="bg-white text-md bg-opacity-80  transform transition-transform duration-2500 rounded-full px-7 py-2 shadow text-black font-medium hover:bg-red-600 hover:text-white">
-              Face
+              Body
             </p>
           </div>
         </div>
@@ -61,15 +61,15 @@ const Productadvantages = () => {
 
         <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
           <Image
-            src="/images/Advantages/cosmetic-cat-1.webp"
-            alt="Face"
+            src="/images/Advantages/cosmetic-cat-10.webp"
+            alt="สบู่มาดามเฮง"
             className="w-full h-full  transform transition-transform duration-3000 hover:scale-110"
             width={1000}
             height={1000}
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 ">
             <p className="bg-white text-md bg-opacity-80  transform transition-transform duration-2500 rounded-full px-7 py-2 shadow text-black font-medium hover:bg-red-600 hover:text-white">
-              Face
+              Lip
             </p>
           </div>
         </div>
@@ -77,15 +77,15 @@ const Productadvantages = () => {
 
         <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
           <Image
-            src="/images/Advantages/cosmetic-cat-1.webp"
-            alt="Face"
+            src="/images/Advantages/pexels-leg.webp"
+            alt="สบู่มาดามเฮง"
             className="w-full h-full  transform transition-transform duration-3000 hover:scale-110"
             width={1000}
             height={1000}
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 ">
             <p className="bg-white text-md bg-opacity-80  transform transition-transform duration-2500 rounded-full px-7 py-2 shadow text-black font-medium hover:bg-red-600 hover:text-white">
-              Face
+              Leg
             </p>
           </div>
         </div>
@@ -93,15 +93,15 @@ const Productadvantages = () => {
 
         <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition duration-300">
           <Image
-            src="/images/Advantages/cosmetic-cat-1.webp"
-            alt="Face"
+            src="/images/Advantages/cosmetic-cat-8.webp"
+            alt="สบู่มาดามเฮง"
             className="w-full h-full  transform transition-transform duration-3000 hover:scale-110"
             width={1000}
             height={1000}
           />
           <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 ">
             <p className="bg-white text-md bg-opacity-80  transform transition-transform duration-2500 rounded-full px-7 py-2 shadow text-black font-medium hover:bg-red-600 hover:text-white">
-              Face
+              Foot
             </p>
           </div>
         </div>

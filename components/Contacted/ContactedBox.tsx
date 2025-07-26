@@ -1,3 +1,4 @@
+"use client";
 import { ContactIcon } from "./ContactIcon";
 
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
@@ -17,27 +18,30 @@ const ContactedBox = ({ classtype, pops }: classtype) => {
       {" "}
       <div className="  justify-items-center ">
         <div className="grid grid-cols-1 px-5 gap-5  md:grid-cols-2 justify-items-center  ">
-          <ContactIcon
-            pops={pops}
-            sizeicon="2x"
-            coloricon="blue"
-            msg="Messenger"
-            description="99999999999"
-            LINKBTN="#"
-            icontype={faFacebookMessenger}
-            classtype={classtype}
-          />
-
-          <ContactIcon
-            pops={pops}
-            sizeicon="2x"
-            coloricon="blue"
-            msg="Facebook"
-            description="9999999"
-             LINKBTN="tel:99999999"
-            icontype={faFacebook}
-            classtype={classtype}
-          />
+          <span className="pr-10 ">
+            <ContactIcon
+              pops={pops}
+              sizeicon="2x"
+              coloricon="blue"
+              msg="Messenger"
+              description="99999999999"
+              LINKBTN="#"
+              icontype={faFacebookMessenger}
+              classtype={classtype}
+            />
+          </span>
+          <span className="pr-10 ">
+            <ContactIcon
+              pops={pops}
+              sizeicon="2x"
+              coloricon="blue"
+              msg="Facebook"
+              description="99999999"
+              LINKBTN="tel:999999999"
+              icontype={faFacebook}
+              classtype={classtype}
+            />
+          </span>
 
           <span className="pr-10 ">
             <ContactIcon

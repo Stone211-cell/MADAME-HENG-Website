@@ -27,7 +27,7 @@ const Dropdown = () => {
               w-full h-full p-0.5 rounded
               text-white
               group-focus:bg-red-900
-              group-data-[state=open]:text-red-900
+              group-data-[state=open]:text-white
               group-data-[state=closed]:bg-red-900
             "
           />

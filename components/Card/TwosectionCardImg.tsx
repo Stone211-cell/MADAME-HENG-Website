@@ -1,15 +1,15 @@
 import Image from "next/image";
-
+import { ReactNode } from "react";
 
 type cardlist = {
   title: string;
-  des: string;
+  des: ReactNode;
   img: string;
 };
 
 export const TwoCardR = ({ title, des, img }: cardlist) => {
   return (
-    <div className="flex mt-15 bg-black justify-center items-center h-full w-full py-20 my-10 ">
+    <div className="flex mt-15 bg-red-900 justify-center items-center h-full w-full py-20 my-10 ">
       <div className="hidden md:block ">
         <div className=" flex flex-row items-center space-x-10 w-full px-15">
           <div>
