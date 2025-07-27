@@ -17,7 +17,7 @@ export function BannerBox() {
         {/* Background Image with Blur */}
         <Image
           src="/images/Banner/6511883982ee8.jpg"
-          alt="ซ่อมประปา"
+          alt="มาดามเฮง"
           className="absolute inset-0 w-full h-full object-cover "
           fill
         />
@@ -27,7 +27,7 @@ export function BannerBox() {
           <div className="flex justify-center">
             <Link href="#map">
               <h2 className="text-2xl font-bold bg-white text-black px-4 py-1 rounded-md transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer">
-                ตัวแทนขายส่ง
+                ตัวแทนขายส่ง บริษัท เคอรี่ เทรดดิ้ง จำกัด
               </h2>
             </Link>
           </div>
@@ -50,7 +50,7 @@ export function BannerBox() {
               className="text-white"
             >
               <h2 className="text-md font-bold mt-5 bg-red-800 rounded-2xl px-4 py-2 transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer hover:bg-red-700">
-                เปิดแผนที่นำทาง
+                ติดต่อ กดคลิก
               </h2>
             </Link>
           </div>

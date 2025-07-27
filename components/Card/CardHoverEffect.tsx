@@ -9,39 +9,39 @@ export function CardHoverEffect() {
 }
 export const projects = [
   {
-    title: "Stripe",
+    title: "ทุนน้อย!!",
     description:
-      "A technology company that builds economic infrastructure for the internet.",
-    link: "https://stripe.com",
+      "ลงทุนน้อยกว่าการเป็นผู้ผลิตเอง ไม่ต้องใช้เงินก้อน ความเสี่ยงน้อยกว่า.",
+    link: "มาดามเฮง",
   },
   {
-    title: "Netflix",
+    title: "ไม่เสียเวลา!!",
     description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
-    link: "https://netflix.com",
+      "ไม่ต้องมีความรู้เฉพาะทางด้านการผลิต ขายได้เลยไม่เสียเวลา ขนส่งไว มีความยืดหยุ่นในการทำงาน มีสินค้าหลากหลายให้เลือก.",
+    link: "มาดามเฮง",
   },
   {
-    title: "Google",
+    title: "สินค้าคุณภาพ!!",
     description:
-      "A multinational technology company that specializes in Internet-related services and products.",
-    link: "https://google.com",
+      "สินค้ามีคุณภาพ มีมานานกว่า10ปี ไม่ต้องสต็อกสินค้า",
+    link: "มาดามเฮง",
   },
   {
-    title: "Meta",
+    title: "เชื่อถือได้!!",
     description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
-    link: "https://meta.com",
+      "บริษัทเรามีความน่าเชื่อ มีทั้งฐานลูกค้าและประสบการณ์ ได้รับการสนับสนุนจากเจ้าของแบรนด์",
+    link: "มาดามเฮง",
   },
   {
-    title: "Amazon",
+    title: "สะดวกสบาย!!",
     description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
-    link: "https://amazon.com",
+      "ไม่ต้องผลิตเอง ต้นทุนน้อยลง ไม่ต้องจัดหาสินค้า สะดวกสบายในการขาย สินค้าถึงมือลูกค้าเร็ว",
+    link: "มาดามเฮง",
   },
   {
-    title: "Microsoft",
+    title: "การันตีคุณภาพของสินค้า!!",
     description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-    link: "https://microsoft.com",
+      "บริษัทเราการันตีคุณภาพสินค้า และการขนส่งให้แก่ตัวแทนจำหน่าย ไม่ต้องกังวลเรื่องสินค้าเสียหายก่อนถึงมือ",
+    link: "มาดามเฮง",
   },
 ];
