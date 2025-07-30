@@ -16,10 +16,12 @@ export function BannerBox() {
 
         {/* Background Image with Blur */}
         <Image
-          src="/images/Banner/6511883982ee8.jpg"
+          src="/images/Banner/6511883982ee8.webp"
           alt="มาดามเฮง"
           className="absolute inset-0 w-full h-full object-cover "
           fill
+          priority 
+            sizes="100vw"
         />
 
         {/* Content Overlay */}

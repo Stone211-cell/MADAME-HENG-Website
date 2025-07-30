@@ -23,7 +23,7 @@ export const AOSPage = () => {
   }, []);
   return (
     <div>
-      <div data-aos="fade-up">
+      <div>
         <BannerBox />
       </div>
 
