@@ -1,7 +1,7 @@
 "use client";
 import { ContactIcon } from "./ContactIcon";
 
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
   faFacebookMessenger,
@@ -18,51 +18,27 @@ const ContactedBox = ({ classtype, pops }: classtype) => {
       {" "}
       <div className="  justify-items-center ">
         <div className="grid grid-cols-1 px-5 gap-5  md:grid-cols-2 justify-items-center  ">
-          <span className="pr-10 ">
-            <ContactIcon
-              pops={pops}
-              sizeicon="2x"
-              coloricon="blue"
-              msg="Messenger"
-              description="99999999999"
-              LINKBTN="#"
-              icontype={faFacebookMessenger}
-              classtype={classtype}
-            />
-          </span>
-          <span className="pr-10 ">
+          <span >
             <ContactIcon
               pops={pops}
               sizeicon="2x"
               coloricon="blue"
               msg="Facebook"
-              description="99999999"
-              LINKBTN="tel:999999999"
+              description="ติดต่อสอบถาม"
+              LINKBTN="https://www.facebook.com/share/18MM3dBtwd/"
               icontype={faFacebook}
               classtype={classtype}
             />
           </span>
 
-          <span className="pr-10 ">
+          <span className="">
             <ContactIcon
               pops={pops}
               sizeicon="2x"
               coloricon="red"
               msg="โทรสอบถาม"
-              description="0699999999"
-              LINKBTN="tel:99999999"
-              icontype={faPhone}
-              classtype={classtype}
-            />
-          </span>
-          <span className="pr-10 ">
-            <ContactIcon
-              pops={pops}
-              sizeicon="2x"
-              coloricon="red"
-              msg="โทรสอบถาม"
-              description="0999999999"
-              LINKBTN="tel:99999999"
+                 description="089-994-7693"
+              LINKBTN="tel:0899947693"
               icontype={faPhone}
               classtype={classtype}
             />
@@ -73,12 +49,26 @@ const ContactedBox = ({ classtype, pops }: classtype) => {
               sizeicon="2x"
               coloricon="green"
               msg="LINE ID"
-              description="0699999999"
-              LINKBTN="tel:99999999"
+              description="Line"
+              LINKBTN="https://qr-official.line.me/gs/M_094shhsh_BW.png?oat_content=qr"
               icontype={faLine}
               classtype={classtype}
             />
           </span>
+
+           <span>
+          
+                               <ContactIcon pops={pops}
+                                 sizeicon="2x"
+                                 coloricon="red"
+                                 msg=" เปิดแผนที่นำทาง"
+                                 description=""
+                                 LINKBTN="https://maps.app.goo.gl/EeVGskhjHEgHwUq76"
+                                 icontype={faLocationDot}
+                                 classtype=""
+                                 />
+          
+                                 </span>
         </div>
       </div>
     </div>

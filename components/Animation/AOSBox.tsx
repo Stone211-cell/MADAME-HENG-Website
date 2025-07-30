@@ -1,3 +1,5 @@
+"use client"
+
 import { ImagesSliderSection } from "@/components/Animation/ImagesSliderSection";
 import { CardHoverEffect } from "@/components/Card/CardHoverEffect";
 import { CardTestimonials } from "@/components/Card/CardTestimonials";
@@ -8,18 +10,28 @@ import Mapcontactdetail from "@/components/Mapdetail/Mapcontactdetail";
 import { BannerBox } from "../Card/Banner";
 import Image from "next/image";
 
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
+
 export const AOSPage = () => {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000,   // ระยะเวลาเล่น animation (ms)
+      once: false,      // ❗ เล่นได้หลายรอบ (default คือ false อยู่แล้ว แต่ใส่ไว้ชัดเจน)
+    });
+  }, []);
   return (
     <div>
-      <div>
+      <div data-aos="fade-up">
         <BannerBox />
       </div>
 
-      <div id="service">
+      <div id="service" data-aos="zoom-in-up">
         <CardHoverEffect />
       </div>
 
-      <div>
+      <div data-aos="fade-up-left">
         <TwoCardR
           title="รายละเอียดต่างๆ"
           des={
@@ -69,12 +81,12 @@ export const AOSPage = () => {
         <CardTestimonials />
       </div>
 
-      <div>
+      <div data-aos="fade-down-right">
         <Productadvantages />
         <ContactedBox />
       </div>
 
-      <div id="aboutus">
+      <div id="aboutus" data-aos="zoom-in">
         <TwoCardR
           title="เกี่ยวกับเรา บริษัท เคอรี่ เทรดดิ้ง จำกัด"
           des={
@@ -90,14 +102,14 @@ export const AOSPage = () => {
               บริษัทของเราจะมุ่งมั่นในการดำเนินธุรกิจอย่างยั่งยืนบนพื้น
             </>
           }
-          img="/images/Advantages/cosmetic-cat-1.webp"
+          img="/images/Testimonials/pic1.webp"
         />
 
         <ContactedBox />
       </div>
 
       {/* ข้อดีสินค้า */}
-      <section className="my-15">
+      <section className="my-15" data-aos="flip-up">
         <div>
           <ImagesSliderSection />
 
@@ -156,7 +168,7 @@ export const AOSPage = () => {
                 <div>
                   <Image
                     className="rounded-xl"
-                    src="/images/Testimonials/pic1.webp"
+                    src="/images/Testimonials/pic3.webp"
                     alt="Lobby Lounge"
                     width={600}
                     height={260}
@@ -171,7 +183,7 @@ export const AOSPage = () => {
                 <div className="w-full">
                   <Image
                     className="rounded-xl mb-6"
-                    src="/images/Testimonials/pic1.webp"
+                    src="/images/Testimonials/pic3.webp"
                     alt="Lobby Lounge"
                     width={600}
                     height={260}

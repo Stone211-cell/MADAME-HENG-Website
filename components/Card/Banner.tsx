@@ -27,15 +27,15 @@ export function BannerBox() {
           <div className="flex justify-center">
             <Link href="#map">
               <h2 className="text-2xl font-bold bg-white text-black px-4 py-1 rounded-md transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer">
-                ตัวแทนขายส่ง บริษัท เคอรี่ เทรดดิ้ง จำกัด
+                ตัวแทนขายส่ง
               </h2>
             </Link>
           </div>
 
           <div className="my-5">
-            <h3 className="text-5xl font-bold py-5">
+            <h1 className="text-5xl font-bold py-5">
               เราคือตัวแทนขายส่ง สบู่ที่ดีที่สุดในไทย
-            </h3>
+            </h1>
             <p className="mt-2 text-sm">
               เราเป็นตัวแทน ขายส่ง ขายออก ที่มีประสบการณ์มามากกว่า 5ปี
               โดยเราทำงานเป้ฯมืออาชีพ ส่งของตรงเวลาและไวที่สุด ราคาเป็นมิตร

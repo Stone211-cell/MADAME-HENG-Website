@@ -1,6 +1,6 @@
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { ContactIcon } from "../Contacted/ContactIcon";
-import { faLine } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faLine } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ const Mapcontactdetail = () => {
       <div className="relative bg-gradient-to-b from-red-600 to-red-900">
         <Image
           src="/images/banner/S__8683544.webp"
-          alt="ซ่อมประปา"
+          alt="สบู่มาดามเฮง "
           className="absolute inset-0 w-full h-[100%] min-h-[500px] object-cover  backdrop-blur-md"
           fill
         />
@@ -23,17 +23,16 @@ const Mapcontactdetail = () => {
           </div>
 
           <div className="my-5">
-            <h3 className=" text-5xl font-bold py-5">ช่างมิล ประปาเพื่อคุณ</h3>
+            <h3 className=" text-5xl font-bold py-5">ตัวแทนจำหน่าย</h3>
             <p className="mt-2 text-sm">
-              บริการรับซ่อมประปา หาจุดรั่ว เดินท่อประปา
-              บริการรับติดตั้งที่เก็บน้ำ ทุกประเภท ราคาถูก
+              ตัวแทนจำหน่ายสบู่มาดามเฮง คุณภาพดี สะดวก ราคาถูกไว้ใจได้
             </p>
           </div>
 
           <div className="flex justify-center text-center ">
             <h2 className="text-md font-bold mt-5  text-black bg-yellow-500 rounded-2xl p-2 transition-transform duration-200 ease-in-out hover:scale-110 ">
               <Link
-                href="https://maps.app.goo.gl/bu6t2kMvaarxJroE9"
+                href="https://maps.app.goo.gl/EeVGskhjHEgHwUq76"
                 className="text-white"
               >
                 เปิดแผนที่นำทาง
@@ -50,27 +49,30 @@ const Mapcontactdetail = () => {
                 sizeicon="2x"
                 coloricon="yellow"
                 msg="ที่ตั้ง"
-                LINKBTN="https://maps.app.goo.gl/Xb2CXB2nrFop37ee7"
+                LINKBTN="https://maps.app.goo.gl/EeVGskhjHEgHwUq76"
                 icontype={faLocationDot}
                 classtype=""
               />
             </div>
 
             <p>
-              48/23 ซอย หินอ่อน 3 แขวงสายไหม เขตสายไหม กรุงเทพมหานคร 10220
-              ประเทศไทย
+              บริษัท เคอรี่ เทรดดิ้ง จำกัด
+เลขที่ 1205  หมู่ 3  
+ตำบลท้ายบ้านใหม่  
+อำเภอเมืองสมุทรปราการ 
+จังหวัดสมุทรปราการ  10280
             </p>
           </div>
 
           <div className="flex justify-center text-center ">
-            <div className="grid grid-cols-1 md:grid-cols-3  gap-10 ">
+            <div className="grid grid-cols-1 md:grid-cols-3  gap-10">
               <span>
                 <ContactIcon
                   sizeicon="2x"
                   coloricon="yellow"
                   msg="โทรศัพท์สอบถาม"
-                  description="0999999"
-                  LINKBTN="tel:9999999"
+                  description="089-994-7693"
+              LINKBTN="tel:0899947693"
                   icontype={faPhone}
                   classtype=""
                 />
@@ -80,12 +82,26 @@ const Mapcontactdetail = () => {
                   sizeicon="2x"
                   coloricon="yellow"
                   msg="LINE ID"
-                  description="9999999999"
-                  LINKBTN="tel:999999"
+                  description="Line"
+                  LINKBTN="https://qr-official.line.me/gs/M_094shhsh_BW.png?oat_content=qr"
                   icontype={faLine}
                   classtype=""
                 />
               </span>
+              <span>
+                <ContactIcon
+                  sizeicon="2x"
+                   coloricon="yellow"
+                          msg="Facebook"
+                          description="ติดต่อสอบถาม"
+
+                          LINKBTN="https://www.facebook.com/share/18MM3dBtwd/"
+                  classtype="pr-10"
+                />
+              </span>
+
+             
+
             </div>
           </div>
         </div>
