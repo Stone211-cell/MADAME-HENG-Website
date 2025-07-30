@@ -1,6 +1,6 @@
 import { faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { ContactIcon } from "../Contacted/ContactIcon";
-import { faFacebook, faLine } from "@fortawesome/free-brands-svg-icons";
+import {  faLine } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
 

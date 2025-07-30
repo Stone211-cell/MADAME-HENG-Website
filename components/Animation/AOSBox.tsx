@@ -4,7 +4,7 @@ import { ImagesSliderSection } from "@/components/Animation/ImagesSliderSection"
 import { CardHoverEffect } from "@/components/Card/CardHoverEffect";
 import { CardTestimonials } from "@/components/Card/CardTestimonials";
 import Productadvantages from "@/components/Card/Productadvantages";
-import { TwoCardL, TwoCardR } from "@/components/Card/TwosectionCardImg";
+import {  TwoCardR } from "@/components/Card/TwosectionCardImg";
 import ContactedBox from "@/components/Contacted/ContactedBox";
 import Mapcontactdetail from "@/components/Mapdetail/Mapcontactdetail";
 import { BannerBox } from "../Card/Banner";

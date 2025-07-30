@@ -7,8 +7,8 @@ import {
 
 import { ContactIcon } from "../Contacted/ContactIcon";
 
-import Image from "next/image";
-import { faLine } from "@fortawesome/free-brands-svg-icons";
+// import Image from "next/image";
+// import { faLine } from "@fortawesome/free-brands-svg-icons";
 
 const Footerbar = () => {
   return (
