@@ -15,17 +15,16 @@ const Footerbar = () => {
     <footer className="bg-gradient-to-b bg-red-900  w-full p-8 h-[100%]  text-white  ">
       <div>
         <div>
-          <h2 className="text-3xl font-bold text-amber-300"> โรงแรม</h2>
+          <h2 className="text-3xl font-bold text-amber-300"> ตัวแทนขายส่ง</h2>
 
           <div className="my-5 ">
             <h2 className="text-2xl font-bold">
               {" "}
-              Sunsea View Residence <br /> Kohtao
+              ตัวแทนขายส่ง สบู่มาดามเฮง
             </h2>
             <p className="mt-2 text-sm">
-              ซันซีวิวเรสซิเดนซ์ เกาะเต่า พักผ่อนอย่างสบายใจในเมืองสุราษฎร์ธานี
-              กับที่พักบรรยากาศดีและเป็นกันเอง ใกล้ร้านอาหาร ร้านกาแฟ ทะเล
-              และเดินทางต่อไปเกาะสมุยหรือเขื่อนเชี่ยวหลานได้ง่าย
+                        เราเป็นตัวแทน ขายส่ง ขายออก ที่มีประสบการณ์มามากกว่า 5ปี
+              โดยเราทำงานเป้ฯมืออาชีพ ส่งของตรงเวลาและไวที่สุด ราคาเป็นมิตร
             </p>
           </div>
         </div>
@@ -35,7 +34,7 @@ const Footerbar = () => {
         <div>
           <h2 className="mb-3 mx-5">แผนผังเว็บไซต์</h2>
 
-          <div className="flex flex-col gap-y-3 mx-8">
+          <div className="flex flex-col lg:gap-y-3 lg:mx-8">
             <span>
               <ContactIcon
                 sizeicon="lg"
@@ -79,12 +78,10 @@ const Footerbar = () => {
             <div className="hidden md:block">
               <h2 className="text-sm font-bold md:text-xl text-amber-300">
                 {" "}
-                สัมผัสความสะดวกสบายอันทันสมัยที่โรงแรมของเราในตัวเมืองกรุงเทพ
+                เลือกเรา ไม่ผิดหวัง รับสมัครตัวแทนจำหน่าย
               </h2>
               <p className="mt-2 text-xs">
-                หลีกหนีสู่สถานที่ให้ความสุขอันเงียบสงบใจกลางย่านสุราษฎร์ธานีที่
-                Sunsea View Residence Kohtao
-                โรงแรมของเราในใจกลางเมืองสุราษฎร์ธานีเหมาะสำหรับทั้งธุรกิจหรือการพักผ่อน
+                รับสมัครตัวแทนจำหน่าย ขายส่งสบู่มาดามเฮงออนไลน์ สร้างรายได้ง่ายๆ ที่บ้าน ข้อมูลไม่ต้องเตรียมเยอะสมัครเป็นตัวแทนได้เลย
               </p>
             </div>
           </div>
