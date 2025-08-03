@@ -29,17 +29,16 @@ export function BannerBox() {
           <div className="flex justify-center">
             <Link href="#map">
               <h2 className="text-2xl font-bold bg-white text-black px-4 py-1 rounded-md transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer">
-                ตัวแทนขายส่ง
+                เปิดรับตัวแทนทั่วประเทศ
               </h2>
             </Link>
           </div>
 
           <div className="my-5">
             <h1 className="text-5xl font-bold py-5">
-              เราคือตัวแทนขายส่ง สบู่ที่ดีที่สุดในไทย
+             เงื่อนไขการสมัครตัวแทน
             </h1>
             <p className="mt-2 text-sm">
-              เปิดรับตัวแทนทั่วประเทศ เงื่อนไขการสมัครตัวแทน
               1.สมัครฟรีไม่ต้องเสียค่าสมัคร 2.ไม่ต้องสต๊อกสินค้า
               3.ไม่ต้องรักษายอด
               4.ต้องโพสต์ขายสินค้าทุกวันเพื่อรักษาสิทธิ์การเป็นตัวแทน
