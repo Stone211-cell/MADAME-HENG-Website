@@ -20,8 +20,8 @@ export function BannerBox() {
           alt="มาดามเฮง"
           className="absolute inset-0 w-full h-full object-cover "
           fill
-          priority 
-            sizes="100vw"
+          priority
+          sizes="100vw"
         />
 
         {/* Content Overlay */}
@@ -39,14 +39,16 @@ export function BannerBox() {
               เราคือตัวแทนขายส่ง สบู่ที่ดีที่สุดในไทย
             </h1>
             <p className="mt-2 text-sm">
-              เราเป็นตัวแทน ขายส่ง ขายออก ที่มีประสบการณ์มามากกว่า 5ปี
-              โดยเราทำงานเป็นมืออาชีพ ส่งของตรงเวลาและไวที่สุด ราคาเป็นมิตร
+              เปิดรับตัวแทนทั่วประเทศ เงื่อนไขการสมัครตัวแทน
+              1.สมัครฟรีไม่ต้องเสียค่าสมัคร 2.ไม่ต้องสต๊อกสินค้า
+              3.ไม่ต้องรักษายอด
+              4.ต้องโพสต์ขายสินค้าทุกวันเพื่อรักษาสิทธิ์การเป็นตัวแทน
             </p>
           </div>
 
           <div className="flex justify-center">
             <Link
-              href="https://maps.app.goo.gl/HHCnyNu87xprH9Dr7?g_st=ic"
+              href="tel:0899947693"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white"

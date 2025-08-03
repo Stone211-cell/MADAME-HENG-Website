@@ -25,7 +25,11 @@ const Mapcontactdetail = () => {
           <div className="my-5">
             <h3 className=" text-5xl font-bold py-5">ตัวแทนจำหน่าย</h3>
             <p className="mt-2 text-sm">
-              ตัวแทนจำหน่ายสบู่มาดามเฮง คุณภาพดี สะดวก ราคาถูกไว้ใจได้
+              เปิดรับตัวแทนทั่วประเทศ
+
+คุณภาพดี
+ส่งตรงเวลา
+ราคามิตรภาพ
             </p>
           </div>
 
@@ -109,7 +113,7 @@ const Mapcontactdetail = () => {
 
       <div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3872.8279941722813!2d100.63774117509318!3d13.909227286499265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDU0JzMzLjIiTiAxMDDCsDM4JzI1LjEiRQ!5e0!3m2!1sth!2sth!4v1749535598325!5m2!1sth!2sth"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.0492780659088!2d100.61154909999999!3d13.5756575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2a71ce762d2f9%3A0x46b0d8247b1debf2!2zS2VycnkgVHJhZGluZyBDby4sTHRkLiAvIOC4muC4o-C4tOC4qeC4seC4lyDguYDguITguK3guKPguLXguYgg4LmA4LiX4Lij4LiU4LiU4Li04LmJ4LiHIOC4iOC4s-C4geC4seC4lA!5e1!3m2!1sth!2sth!4v1754226330671!5m2!1sth!2sth"
           width="100%"
           height="500"
           loading="lazy"

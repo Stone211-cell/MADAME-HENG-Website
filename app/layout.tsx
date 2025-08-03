@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   ],
 
   icons: {
-    icon: "/images/service/LOGO.jpg",
-    apple: "/images/service/LOGO.jpg",
-    shortcut: "/images/service/LOGO.jpg",
+    icon: "/images/Banner/6511883982ee8.webp",
+    apple: "/images/Banner/6511883982ee8.webp",
+    shortcut: "/images/Banner/6511883982ee8.webp",
   },
 
   openGraph: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/service/LOGO.jpg",
+        url: "/images/Banner/6511883982ee8.webp",
       },
     ],
   },
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
       "รับซ่อม",
     description:
       "ช่างซ่อมประยวบริการรับ ",
-    images: ["/images/service/LOGO.jpg"],
+    images: ["/images/Banner/6511883982ee8.webp"],
   },
 
   other: {
