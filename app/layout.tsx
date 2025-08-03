@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title:
       "Kerry Trading",
     description:
-      "ตัวแทนจำหน่ายสบู่มาดามเฮง",
+      "ตัวแทนจำหน่ายสบู่มาดามเฮง ",
     images: ["/images/Banner/6511883982ee8.webp"],
   },
 
