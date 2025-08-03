@@ -17,12 +17,12 @@ export const metadataBase = new URL("https:www.goggle.com");
 
 export const metadata: Metadata = {
   title:
-    "hhhhhhhhhhhhhhhhhhhhhh",
+    "Kerry Trading",
   description:
-    "ั้้้hhhhhhhhhhhhhhhhhh",
+    "ตัวแทนจำหน่ายสบู่มาดามเฮง",
   keywords: [
-    "ซ่อทพ",
-    "ซ่อทพ",
+    " ",
+  
 
   ],
 
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
 
   openGraph: {
     title:
-      "รับซ่อ",
+      "Kerry Trading",
     description:
-      "ช่าง ",
+      "ตัวแทนจำหน่ายสบู่มาดามเฮง",
     url: "https:",
     type: "website",
     images: [
@@ -49,9 +49,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "รับซ่อม",
+      "Kerry Trading",
     description:
-      "ช่างซ่อมประยวบริการรับ ",
+      "ตัวแทนจำหน่ายสบู่มาดามเฮง",
     images: ["/images/Banner/6511883982ee8.webp"],
   },
 
